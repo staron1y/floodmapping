@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nairobi County",
+        "admin_level": "county",
+        "country": "Kenya"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [36.6516, -1.4536],
+          [37.1056, -1.4536],
+          [37.1056, -1.1630],
+          [36.6516, -1.1630],
+          [36.6516, -1.4536]
+        ]]
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "events": [
+    {
+      "id": "E01_2016_04",
+      "label": "Event: E01 (2016-04)",
+      "path": "webapp/layers/events/E01_2016_04.tif",
+      "description": "Historical flood event from April 2016"
+    },
+    {
+      "id": "E15_2025_05",
+      "label": "Event: E15 (2025-05) XGBoost",
+      "path": "webapp/layers/events/E15_2025_05.tif",
+      "description": "Historical flood event from May 2025, predicted using XGBoost model"
+    },
+    {
+      "id": "E15_2025_05_RF",
+      "label": "Event: E15 (2025-05) Random Forest",
+      "path": "webapp/layers/events/E15_2025_05_RF.tif",
+      "description": "Historical flood event from May 2025, predicted using Random Forest model"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "SYN_LOW_24H",
+      "label": "Scenario: Low rainfall (24h)",
+      "path": "webapp/layers/scenarios/SYN_LOW_24H.tif",
+      "description": "Synthetic scenario with low rainfall intensity over 24 hours",
+      "rainfall_mm": "10-25mm",
+      "risk_level": "Low"
+    },
+    {
+      "id": "SYN_MED_24H",
+      "label": "Scenario: Medium rainfall (24h)",
+      "path": "webapp/layers/scenarios/SYN_MED_24H.tif",
+      "description": "Synthetic scenario with moderate rainfall intensity over 24 hours",
+      "rainfall_mm": "25-50mm",
+      "risk_level": "Medium"
+    },
+    {
+      "id": "SYN_HIGH_24H",
+      "label": "Scenario: High rainfall (24h)",
+      "path": "webapp/layers/scenarios/SYN_HIGH_24H.tif",
+      "description": "Synthetic scenario with high rainfall intensity over 24 hours",
+      "rainfall_mm": "50-100mm",
+      "risk_level": "High"
+    },
+    {
+      "id": "SYN_STORMCELL_24H",
+      "label": "Scenario: Storm cell (24h)",
+      "path": "webapp/layers/scenarios/SYN_STORMCELL_24H.tif",
+      "description": "Synthetic scenario with localized intense storm cell",
+      "rainfall_mm": "100+mm (localized)",
+      "risk_level": "Very High"
+    }
+  ]
+}
